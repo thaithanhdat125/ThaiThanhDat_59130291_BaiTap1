@@ -10,54 +10,55 @@ package thaithanhdat_59130291_baitap1;
  * @author Admin
  */
 public abstract class CaNhan {
-        String HoTen;
-    int Tuoi;
-    String DiaChi;
-    String SĐT;
+    String hoTen;
+    int tuoi;
+    String diaChi;
+    String soDT;
 
-    public CaNhan(String HoTen, int Tuoi, String DiaChi, String SĐT) {
-        this.HoTen = HoTen;
-        this.Tuoi = Tuoi;
-        this.DiaChi = DiaChi;
-        this.SĐT = SĐT;
+    public CaNhan(String hoTen, int tuoi, String diaChi, String soDT) {
+        this.hoTen = hoTen;
+        this.tuoi = tuoi;
+        this.diaChi = diaChi;
+        this.soDT = soDT;
     }
 
     public String getHoTen() {
-        return HoTen;
+        return hoTen;
     }
 
-    public void setHoTen(String HoTen) {
-        this.HoTen = HoTen;
+    public void setHoTen(String hoTen) {
+        this.hoTen = hoTen;
     }
 
     public int getTuoi() {
-        return Tuoi;
+        return tuoi;
     }
 
-    public void setTuoi(int Tuoi) {
-        this.Tuoi = Tuoi;
+    public void setTuoi(int tuoi) {
+        this.tuoi = tuoi;
     }
 
     public String getDiaChi() {
-        return DiaChi;
+        return diaChi;
     }
 
-    public void setDiaChi(String DiaChi) {
-        this.DiaChi = DiaChi;
+    public void setDiaChi(String diaChi) {
+        this.diaChi = diaChi;
     }
 
-    public String getSĐT() {
-        return SĐT;
+    public String getSoDT() {
+        return soDT;
     }
 
-    public void setSĐT(String SĐT) {
-        this.SĐT = SĐT;
+    public void setSoDT(String soDT) {
+        this.soDT = soDT;
     }
+    
     public String HienThiTT()
     {
-        return "HoTen: " + HoTen + "\n"
-                + "Tuoi: " + Tuoi + "\n"
-                + "DiaChi: " + DiaChi + "\n"
-                + "SĐT: " + SĐT;
+        return "Họ Tên: " + hoTen + "\n"
+                + "Tuổi: " + tuoi + "\n"
+                + "Địa Chỉ: " + diaChi + "\n"
+                + "Số Điện Thoại: " + soDT;
     }
 }

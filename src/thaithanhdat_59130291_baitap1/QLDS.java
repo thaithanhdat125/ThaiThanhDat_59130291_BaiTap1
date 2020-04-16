@@ -22,7 +22,7 @@ public class QLDS implements IQLDS{
     @Override
     public int xoa(String ten) {
         for(CaNhan i : dscn)
-        {if(i.HoTen==ten)
+        {if(i.hoTen==ten)
             dscn.remove(i);} 
       return dscn.size();
     }
@@ -31,18 +31,18 @@ public class QLDS implements IQLDS{
     public void inDS() {
         for(CaNhan i : dscn)
         {
-            System.out.println("\nHoTen: " + i.HoTen + "\n"
-                + "Tuoi: " + i.Tuoi + "\n"
-                + "DiaChi: " + i.DiaChi + "\n"
-                + "SĐT: " + i.SĐT);
+            System.out.println("\nHọ Tên: " + i.hoTen + "\n"
+                + "Tuổi: " + i.tuoi + "\n"
+                + "Địa Chỉ: " + i.diaChi + "\n"
+                + "Số ĐT: " + i.soDT);   
             if(i instanceof GiaoVien)
             {
-                System.out.print("Mon day: "+ ((GiaoVien) i).MonDay+"\n"
-                         + "To Bo Mon: "+((GiaoVien) i).toBoMon+
+                System.out.print("Môn Dạy: "+ ((GiaoVien) i).monDay+"\n"
+                         + "Tổ Bộ Môn: "+((GiaoVien) i).toBoMon+
                          "\n--------------------------------");
             }
-            if(i instanceof HocSinh) System.out.print("Lop: "+((HocSinh) i).Lop+"\n"+
-                     "Nang Khieu: "+ ((HocSinh) i).NangKhieu+
+            if(i instanceof HocSinh) System.out.print("Lớp: "+((HocSinh) i).lop+"\n"+
+                     "Năng Khiếu: "+ ((HocSinh) i).nangKhieu+
                      "\n--------------------------------");
         }
     }

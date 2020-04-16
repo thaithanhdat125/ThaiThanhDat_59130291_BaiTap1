@@ -11,21 +11,21 @@ package thaithanhdat_59130291_baitap1;
  */
 public class GiaoVien extends CaNhan
 {
-    String MonDay;
+    String monDay;
     String toBoMon;
 
-    public GiaoVien(String HoTen, int Tuoi, String DiaChi, String SĐT,String MonDay, String toBoMon) {
-        super(HoTen, Tuoi, DiaChi, SĐT);
-        this.MonDay = MonDay;
+    public GiaoVien(String hoTen, int tuoi, String diaChi, String soDT,String monDay, String toBoMon) {
+        super(hoTen, tuoi, diaChi, soDT);
+        this.monDay = monDay;
         this.toBoMon = toBoMon;
     }
 
     public String getMonDay() {
-        return MonDay;
+        return monDay;
     }
 
-    public void setMonDay(String MonDay) {
-        this.MonDay = MonDay;
+    public void setMonDay(String monDay) {
+        this.monDay = monDay;
     }
 
     public String getToBoMon() {
@@ -36,10 +36,12 @@ public class GiaoVien extends CaNhan
         this.toBoMon = toBoMon;
     }
 
+    
+
     @Override
     public String HienThiTT() {
                 return super.HienThiTT() + "\n"
-                + "Monday: "+MonDay+"\n"
+                + "Monday: "+monDay+"\n"
                 +"toBoMon: "+toBoMon; //To change body of generated methods, choose Tools | Templates.
     }
     

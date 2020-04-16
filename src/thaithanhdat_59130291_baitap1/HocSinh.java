@@ -11,37 +11,37 @@ package thaithanhdat_59130291_baitap1;
  */
 public class HocSinh extends CaNhan
 {   
-    String Lop;
-    String NangKhieu;
+    String lop;
+    String nangKhieu;
 
     public HocSinh(String HoTen, int Tuoi, String DiaChi, String SĐT,String Lop, String NangKhieu) {
         super(HoTen, Tuoi, DiaChi, SĐT);
-        this.Lop = Lop;
-        this.NangKhieu = NangKhieu;
+        this.lop = Lop;
+        this.nangKhieu = NangKhieu;
     }
 
     public String getLop() {
-        return Lop;
+        return lop;
     }
 
     public void setLop(String Lop) {
-        this.Lop = Lop;
+        this.lop = Lop;
     }
 
     public String getNangKhieu() {
-        return NangKhieu;
+        return nangKhieu;
     }
 
     public void setNangKhieu(String NangKhieu) {
-        this.NangKhieu = NangKhieu;
+        this.nangKhieu = NangKhieu;
     }
     
     
     @Override
     public String HienThiTT() {
         return super.HienThiTT() + "\n"
-                + "Lop: "+Lop+"\n"
-                +"NangKhieu: "+NangKhieu; //To change body of generated methods, choose Tools | Templates.
+                + "Lop: "+lop+"\n"
+                +"NangKhieu: "+nangKhieu; //To change body of generated methods, choose Tools | Templates.
     }
     
 }

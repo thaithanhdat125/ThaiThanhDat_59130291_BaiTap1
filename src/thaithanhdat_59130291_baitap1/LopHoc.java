@@ -29,12 +29,12 @@ public class LopHoc{
     {
         for(HocSinh i : dshs)
         {
-            System.out.println("\nHoTen: " + i.HoTen + "\n"
-                + "Tuoi: " + i.Tuoi + "\n"
-                + "DiaChi: " + i.DiaChi + "\n"
-                + "SĐT: " + i.SĐT+"\n"+
-                     "Lop: "+i.Lop+"\n"+
-                     "Nang Khieu: "+i.NangKhieu+
+            System.out.println("\nHoTen: " + i.hoTen + "\n"
+                + "Tuoi: " + i.tuoi + "\n"
+                + "DiaChi: " + i.diaChi + "\n"
+                + "SĐT: " + i.soDT+"\n"+
+                     "Lop: "+i.lop+"\n"+
+                     "Nang Khieu: "+i.nangKhieu+
                      "\n--------------------------------");
         }
     }  
@@ -42,11 +42,11 @@ public class LopHoc{
     {
         for(GiaoVien i : dsgv)
         {
-            System.out.println("\nHoTen: " + i.HoTen + "\n"
-                + "Tuoi: " + i.Tuoi + "\n"
-                + "DiaChi: " + i.DiaChi + "\n"
-                + "SĐT: " + i.SĐT+"\n"+
-                     "Mon day: "+i.MonDay+"\n"+
+            System.out.println("\nHoTen: " + i.hoTen + "\n"
+                + "Tuoi: " + i.tuoi + "\n"
+                + "DiaChi: " + i.diaChi + "\n"
+                + "SĐT: " + i.soDT+"\n"+
+                     "Mon day: "+i.monDay+"\n"+
                      "To Bo Mon: "+i.toBoMon+
                      "\n--------------------------------");
         }

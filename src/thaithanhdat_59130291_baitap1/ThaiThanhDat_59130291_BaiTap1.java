@@ -16,14 +16,14 @@ public class ThaiThanhDat_59130291_BaiTap1 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        CaNhan hs1 = new HocSinh("hs1",21, "14NgCongTru1", "0581131", "59CNTT31", "DauHoiCucManh1");
+        CaNhan hs1 = new HocSinh("hs1",21, "14NgCongTru1", "0581131", "59CNTT31", "Vẽ");
         CaNhan gv1 = new GiaoVien("gv1",69,"Nha Trang1","10230121","Mẫu Thiết kế1", "Công Nghệ Thông Tin1");
         CaNhan gv2 = new GiaoVien("gv2",69,"Nha Trang2","10230122","Mẫu Thiết kế2", "Công Nghệ Thông Tin2");
         CaNhan gv3 = new GiaoVien("gv3",69,"Nha Trang3","10230123","Mẫu Thiết kế3", "Công Nghệ Thông Tin3");
         CaNhan gv4 = new GiaoVien("gv4",69,"Nha Trang4","10230124","Mẫu Thiết kế4", "Công Nghệ Thông Tin4");
-        CaNhan hs2 = new HocSinh("hs2",21, "14NgCongTru2", "0581132", "59CNTT32", "DauHoiCucManh2");
-        CaNhan hs3 = new HocSinh("hs3",21, "14NgCongTru3", "0581133", "59CNTT33", "DauHoiCucManh3");
-        CaNhan hs4 = new HocSinh("hs4",21, "14NgCongTru4", "0581134", "59CNTT34", "DauHoiCucManh4");
+        CaNhan hs2 = new HocSinh("hs2",21, "14NgCongTru2", "0581132", "59CNTT32", "Nhạc");
+        CaNhan hs3 = new HocSinh("hs3",21, "14NgCongTru3", "0581133", "59CNTT33", "Hát");
+        CaNhan hs4 = new HocSinh("hs4",21, "14NgCongTru4", "0581134", "59CNTT34", "Văn");
         LopHoc dslh = new LopHoc();
         dslh.themHocSinh((HocSinh) hs1);
         dslh.themHocSinh((HocSinh) hs2);
